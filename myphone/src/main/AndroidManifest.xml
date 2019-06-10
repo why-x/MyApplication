@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.myphone">
 
+    <!--获取通讯录-->
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+
+    <!--获取通话记录-->
     <uses-permission android:name="android.permission.READ_CALL_LOG" />
 
     <application
@@ -20,7 +24,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".call.Main2Activity" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Call3Activity"></activity>
     </application>
 
 </manifest>

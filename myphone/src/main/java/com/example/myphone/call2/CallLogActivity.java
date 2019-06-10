@@ -116,7 +116,7 @@ public class CallLogActivity extends Activity {
             TextView tv_number = (TextView) view.findViewById(R.id.tv_number);
             TextView tv_date = (TextView) view.findViewById(R.id.tv_date);
             TextView tv_type = (TextView) view.findViewById(R.id.tv_type);
-            CallLogInfo info = infos.get(position);
+            CallLogInfo info = infos.get(0);
             tv_number.setText(info.number);
             Toast.makeText(CallLogActivity.this,info.number+"--------",Toast.LENGTH_LONG).show();
             SimpleDateFormat format = new SimpleDateFormat(
