@@ -1,1 +1,1 @@
-include ':app'
+include ':app', ':call', ':blue', ':bluesun', ':myblue', ':printer', ':mybanner', ':myphone'

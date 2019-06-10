@@ -21,7 +21,6 @@ public class Main2Activity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
         mRadiogroup = findViewById(R.id.radiogroup);
-
         FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
 
         mOneFragment = new OneFragment();

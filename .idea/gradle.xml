@@ -9,6 +9,13 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/blue" />
+            <option value="$PROJECT_DIR$/bluesun" />
+            <option value="$PROJECT_DIR$/call" />
+            <option value="$PROJECT_DIR$/mybanner" />
+            <option value="$PROJECT_DIR$/myblue" />
+            <option value="$PROJECT_DIR$/myphone" />
+            <option value="$PROJECT_DIR$/printer" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
