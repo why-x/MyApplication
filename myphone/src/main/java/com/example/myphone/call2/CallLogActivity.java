@@ -16,7 +16,6 @@ import android.widget.AdapterView;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.myphone.R;
 
@@ -116,9 +115,9 @@ public class CallLogActivity extends Activity {
             TextView tv_number = (TextView) view.findViewById(R.id.tv_number);
             TextView tv_date = (TextView) view.findViewById(R.id.tv_date);
             TextView tv_type = (TextView) view.findViewById(R.id.tv_type);
-            CallLogInfo info = infos.get(0);
+            CallLogInfo info = infos.get(position);
             tv_number.setText(info.number);
-            Toast.makeText(CallLogActivity.this,info.number+"--------",Toast.LENGTH_LONG).show();
+//            Toast.makeText(CallLogActivity.this,info.number+"--------",Toast.LENGTH_LONG).show();
             SimpleDateFormat format = new SimpleDateFormat(
                     "yyyy-MM-dd hh:mm:ss");
             String dateStr = format.format(info.date);
